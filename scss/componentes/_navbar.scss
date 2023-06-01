@@ -1,0 +1,35 @@
+body {
+    background-color: #9c9448be;
+    Overflow-x: hidden;
+}
+
+.nav__color {
+    background-color: $bc-color;
+
+    .img__nav {
+        width: 120px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.texto__nav {
+    color: #000C11;
+    font-family: $ff-BS;
+    font-family: $ff-IFE;
+
+}
+
+
+.separador {
+    border: none;
+    border-top: 15px solid black;
+    margin: 0px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+:root{
+    Overflow-x: hidden;
+}

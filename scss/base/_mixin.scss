@@ -1,0 +1,13 @@
+@mixin escritura($color, $textoborde, $padding, $Fz, $Fw) {
+    color: $color;
+    text-shadow: $textoborde;
+    padding: $padding;
+    font-size: $Fz;
+    font-weight: $Fw;
+}
+
+@mixin boton ($color, $bg-c, $width) {
+    color: $color;
+    background-color: $bg-c;
+    width: $width;
+}

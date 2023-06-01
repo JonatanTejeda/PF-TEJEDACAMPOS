@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: $T-C;
+    background-color: #caaa868e;
+}
+
+th {
+    background-color: #ffffff;
+}
+.horarios__texto{
+    color: white;
+}
+.discord__spam {
+    color: white;
+}

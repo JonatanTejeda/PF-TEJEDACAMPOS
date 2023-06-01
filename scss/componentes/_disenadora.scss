@@ -1,0 +1,52 @@
+.disenadora__contenedor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: $J-C;
+
+  img {
+    border: 2px solid white;
+    box-shadow: 0 0 0 2px white;
+    flex: auto;
+  }
+}
+
+.disenadora__h1 {
+  color: rgb(170, 43, 164);
+  text-shadow: 1px 2px 10px black, 1px 2px 15px black, 1px 2px 20px black;
+  padding: 10px;
+  font-family: $ff-BUN;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.subtitulo__disenadora {
+  color: white;
+}
+
+.galeria__disenadora img {
+  width: 100%;
+  padding: 25px;
+  margin: 0;
+}
+
+.redes__disenadora {
+  color: rgb(170, 43, 164);
+  text-shadow: 1px 2px 10px black, 1px 2px 15px black, 1px 2px 20px black;
+  padding: 10px;
+  font-family: $ff-BUN;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+
+
+.card-body {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.col-lg-5 {
+  justify-content: center;
+  margin: 0 auto;
+}
